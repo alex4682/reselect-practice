@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "redux/*": ["redux/*"],
+      "components/*": ["components/*"],
+      "views/*": ["views/*"],
+      "services/*": ["services/*"]
+    }
+  },
+  "include": ["src"]
+}
