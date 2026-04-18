@@ -26,14 +26,6 @@ export async function fetchAuthors() {
     throw error;
   }
 }
-// {
-//     "id": 1,
-//     "imgUrl": "https://akniga.org/uploads/media/topic/2020/06/28/16/preview/69e87e3223491fec6b50_400x.jpg",
-//     "title": "Маскарад вбивці",
-//     "descr": "Вночі до будинку Уолтера Джалліна проникли двоє озброєних людей — грабіжник і поліцейський, який його переслідує. Але й він не беззбройний. Ось тільки патрон один і потрібно правильно вибрати мету.",
-//     "genre": "реалiзм",
-//     "authorId": 1
-//   },
 
 export async function fetchBookById(id) {
   try {
