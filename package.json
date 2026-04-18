@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.2.2",
     "axios": "^1.14.0",
     "formik": "^2.2.5",
+    "gh-pages": "^6.3.0",
     "modern-normalize": "^1.0.0",
     "prop-types": "^15.7.2",
     "random-number": "0.0.9",
@@ -31,7 +32,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --delay 300 --port 4040 --watch db.json "
+    "server": "json-server --delay 300 --port 4040 --watch db.json ",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
